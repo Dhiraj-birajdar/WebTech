@@ -1,0 +1,20 @@
+@font-face {
+    font-family: handwrite;
+    src: url(fonts/ShortStack-Regular.ttf);
+}
+
+/* stock font */
+#p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+/* linked google font */
+#p2{
+    font-family: poppins;
+}
+
+/* downloaded google font */
+#p3{
+    font-family: handwrite;
+}
