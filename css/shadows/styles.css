@@ -1,0 +1,12 @@
+h1{
+    color: midnightblue;
+    font-size: 6em;
+    text-shadow: 10px 10px 12px black, -10px -10px 12px rgb(179, 46, 46);
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    box-shadow: 6px 6px 5px;
+}
