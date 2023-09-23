@@ -1,0 +1,24 @@
+#dm{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+#d1{
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+    position: relative;
+}
+body{
+    background-image: url(../../html/img/westfield.jpg);
+    color: yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

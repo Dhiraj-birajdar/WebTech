@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: grey;
+    height: 100vh;
+}
+.container #d1,#d2{
+    text-align:center;
+    padding: 24%;
+    background-color: aliceblue;
+    width: 30%;
+    height: 30%;
+    float: left;
+    border: 2px solid;
+    max-width: 80%;
+    min-width: none;
+    max-height: fit-content;
+    min-height: auto;
+}

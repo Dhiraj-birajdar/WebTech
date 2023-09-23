@@ -1,0 +1,15 @@
+body{
+    border: 4px solid;
+    height: 630px 1000px;
+    width: 700px 300px;
+    padding: 9px;
+    display: flow-root;
+    /* padding-top: 0px; */
+}
+.p1{
+    float: left;
+    margin-right: 10px;
+}
+.p2{
+    float: right;
+}
