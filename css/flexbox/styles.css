@@ -1,0 +1,28 @@
+.md{
+    border: 3px solid;
+    display: flex;
+    height:80vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.d{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 8em;
+    text-align: center;
+}
+#d1{
+    background-color: rgb(8, 233, 233);
+}
+#d2{
+    background-color: rgb(0, 255, 21);
+}
+#d3{
+    background-color: rgb(255, 230, 0);
+}
+#d4{
+    background-color: rgb(255, 0, 140);
+}

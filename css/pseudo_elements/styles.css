@@ -1,0 +1,24 @@
+h1::first-letter{
+    font-size: 2em;
+}
+
+p::first-line{
+    background-color: aquamarine;
+}
+p::selection{
+    color: greenyellow;
+    background-color: cadetblue;
+    font-size: 1.2em;
+}
+
+li::marker{
+    content: "✅";
+}
+li::before{
+    content:"❤️" ;
+    
+}
+
+li::after{
+    content: "💕";
+}

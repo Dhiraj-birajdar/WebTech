@@ -1,0 +1,48 @@
+ol{
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: chartreuse;
+    font-size: 1.4em;
+}
+li:not(:hover){
+    background-color: rgb(126, 129, 123);
+    /* font-size: 1.4em; */
+}
+li:nth-child(even){
+    /* 2n, 2n+1, odd */
+    background-color: coral;
+}
+
+#greet{
+    font-size: 3em;
+}
+#greet p{
+    background-color: cornflowerblue;
+    font-size: 2em;
+    display: none;
+}
+#greet:hover p{
+    display: block;
+}
+
+
+
+
+
+
+a:link{
+    font-size: 1.7em;
+    color: aqua;
+}
+a:hover{
+    font-size: 2em;
+    color:lawngreen;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    font-size: 1.3em;
+    color: blueviolet;
+}

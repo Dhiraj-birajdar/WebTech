@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav{
+    background-color: rgb(63, 65, 65);
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    float:left;
+    color: aliceblue;
+}
+nav a:hover{
+    background-color: rgb(25, 26, 25);
+}
+
+nav a.active{
+    background-color: rgb(7, 131, 7);
+}

@@ -1,0 +1,18 @@
+#pgn{
+    text-align: center;
+}
+
+#pgn a{
+    padding: 10px 12px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+}
+#pgn a.active{
+    font-weight: bold;
+    background-color: rgb(84, 196, 84);
+}
+
+#pgn a:hover:not(.active){
+    background-color: rgb(121, 129, 127);
+}

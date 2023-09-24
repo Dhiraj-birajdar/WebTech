@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+nav{
+    background-color: black;
+    height: 50px;
+}
+
+body{
+    margin: 0;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear:both;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}

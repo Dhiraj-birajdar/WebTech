@@ -1,0 +1,16 @@
+#d1{
+    border: 2px solid;
+}
+
+
+#d1 > p{
+    background-color: aqua;
+}
+
+#d1 ~ p{
+    background-color: blue;
+}
+
+#d1 + p{
+    background-color: yellow;
+}
