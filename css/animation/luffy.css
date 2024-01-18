@@ -1,0 +1,38 @@
+.luffy{
+  height="300px";
+  width="120px";
+  display:inline-block;
+  animation-name: reverse;
+  animation-duration: 0.5s;
+  margin-right: 50px;
+    background-color: red;
+  padding-bottom:0;
+}
+
+.luffy:hover{
+  animation-name: rotate;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards ;
+}
+@keyframes rotate{
+  from{
+    transform: rotateX(0deg);
+      box-shadow: 0 0 0;
+  }
+  to{
+/*     transform: rotateX(30deg); */
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 0 30px 20px;
+  }
+}
+@keyframes reverse{
+  from{
+/*     transform: rotateX(30deg); */
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 0 30px 20px;
+  }
+  to{
+    transform: rotateX(0deg);
+      box-shadow: 0 0 0;
+  }
+}
