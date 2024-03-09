@@ -1,0 +1,18 @@
+<?xml-stylesheet href="first.css" type="text/css"?>
+<Course>
+    <computer-science>
+        <student>Dhiraj Birajdar</student>
+        <class>Ty Bsc Cs</class>
+        <sgpa>9.82</sgpa>
+    </computer-science>
+    <string>
+        <![CDATA[ 
+        <computer-science>
+            <student>Dhiraj Birajdar</student>
+            <class>Ty Bsc Cs</class>
+            <sgpa>9.82</sgpa>
+        </computer-science>
+        ]]>
+    </string>
+
+</Course>

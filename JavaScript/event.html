@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS event handling</title>
+</head>
+
+<body style="background-color: black; color: yellow;" onload="cookie()">
+        <script>
+       function cookie(){
+        if(navigator.cookieEnabled == true)
+            alert("cookies are enabled");
+        else
+            alert("cookies are not enabled");
+       }
+        function upper(){
+            var x = document.getElementById("name");
+            x.value = x.value.toUpperCase();
+        }
+        // function change(){
+        //     this.document.style.backgroundColor="#D94A38";
+        // }
+        </script>
+        <form action="#">
+            <input type="text" name="" id="name" onchange="upper()">
+            <!-- <button onclick="change()">change</button> -->
+        </form>
+</body>
+
+</html>

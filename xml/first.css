@@ -1,0 +1,9 @@
+Course {
+    color: red;
+    font-size: 50px;
+    background-color: black;
+}
+
+student,string {
+    display: block;
+}

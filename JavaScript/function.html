@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS function</title>
+</head>
+
+<body style="background-color: black; color: yellow;">
+    <script>
+        function show(h) {
+            var name = document.getElementById("nameid").value;
+            document.write("<h" + h + "> Hello " + name + " <h" + h + ">");
+            alert("Hello "+name);
+
+            var name = document.getElementsByName("name");
+            for (var p in name)
+                document.write(name[p]);
+        }
+
+    </script>
+    <a href="www.google.com" onMouseOver="window.alert('over mouse');">hover</a>
+    <form action="#" >
+        <input type="text" name="name" id="nameid">
+        <input type="button" onclick="show(1)" name="submit" value="Click Me">
+    </form>
+</body>
+
+</html>
