@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Form iframe</title>
+</head>
+
+<body>
+
+    <!-- <a href="http://www.google.com" target="_blank">Go to google</a>
+    <a href="day1.html" target="frame1">Home</a>
+    <a href="day2.html" target="frame1">Form</a>
+    <br><br>
+    <iframe src="HTML5Form.html" name="frame1" width="500px" height="400px"></iframe> -->
+
+    <form action="#">
+        <fieldset style="width: 300px;">
+            <legend align="center">Registraion Form</legend>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Phno NO:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number" min="18" max="50"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>Subject:</td>
+                    <td><input type="checkbox" name="sub" value="c">C
+                        <input type="checkbox" name="sub" value="c++">C++
+                        <input type="checkbox" name="sub" value="c#">C#
+                    </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <select name="" id="">
+                            <optgroup label="MH">
+                                <option value="pune">Pune</option>
+                                <option value="pune">Mumbai</option>
+                                <option value="pune">Thane</option>
+                            </optgroup>
+                            <optgroup label="GJ">
+                                <option value="pune">Jaipur</option>
+                                <option value="pune">Gandhinagar</option>
+                                <option value="pune">Ahmdabad</option>
+                            </optgroup>
+                            <optgroup label="UP">
+                                <option value="pune">Lukhnow</option>
+                                <option value="pune">Prayagraj</option>
+                                <option value="pune">Ayodhya</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select File:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Time:</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td>Comment:</td>
+                    <td><textarea name="" id="" rows="4" cols="20" placeholder="comment here"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Rate:</td>
+                    <td><input type="range" min="0" max="10" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit" name="" id="">
+                        <input type="reset" value="Reset" name="" id="">
+                        <input type="button" value="Button" name="" id="">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
