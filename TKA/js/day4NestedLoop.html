@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black;">
+
+    <script>
+        // let n = parseInt(prompt("Enter no: "));
+        // pattern2(n)
+        function pattern1(n) {
+            let str = '';
+            for (let i = 0; i < n; i++) {
+                for (let j = 0; j <= i; j++)
+                    str += "* "
+                str += '<br>';
+            }
+            document.write(str);
+        }
+
+        function pattern2(n) {
+            let str = '';
+            let arr = [];
+            for (let i = 0; i < n; i++) {
+                arr[i] = [];
+            }
+            for (let i = 0; i < n; i++) {
+                for (let j = 0; j <= i; j++)
+                    arr[i][j] = "*"
+            }
+            for (let i = 0; i < n; i++) {
+                for (let j = n - 1; j >= 0; j--) {
+                    if (arr[i][j] != undefined)
+                        document.write("*&nbsp;")
+                    else
+                        document.write('&nbsp;')
+                }
+
+                document.write('<br>')
+            }
+
+        }
+        // chessBoard(8);
+        function chessBoard(n) {
+            let str = '';
+            for (let i = 0; i < n; i++) {
+                let flag = (i % 2 === 0) ? true : false;
+                for (let j = 0; j < n; j++) {
+                    str += `<div style="width:100px; height:100px; background-color:${flag ? 'black' : 'white'};display:inline-block;border: 1px solid black;"}'></div>`;
+                    flag = !flag;
+                }
+                str += '<br>';
+            }
+            document.write(str);
+        }
+
+
+
+        let range = prompt("Enter range: ")
+        numberTable(parseInt(range.split(" ")[0]), parseInt(range.split(" ")[1]));
+        function numberTable(n1, n2) {
+            let str = '<table border=2 cellpadding=5 cellspacing=5>';
+            for (let i = n1; i <= n2; i++) {
+                let flag = (i % 2 === 0) ? true : false;
+                str += "<tr>"
+                for (let j = 1; j <= 10; j++) {
+                    str += `<td style="background-color:${flag ? 'black' : 'white'};color:${!flag ? 'black' : 'white'};">${i + "*" + j + " = " + i * j}</td>`;
+                }
+                str += '</tr>';
+            }
+            document.write(str + "</table>");
+        }
+
+    </script>
+
+</body>
+
+</html>

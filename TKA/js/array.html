@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let arr1 = ["java", 'c', 'c++']
+        for (let i in arr1) {
+            document.write(arr1[i])
+        }
+        let arr2 = new Array("skljf", '2332', '3222');
+        for (let i of arr2) {
+            console.log(i)
+        }
+
+        console.log(arr1[0])
+        let arr3 = new Array(3);
+
+        let n = parseInt(prompt("Enter array size: "))
+        let arr = new Array(n)
+        for (var i = 0; i < n; i++) {
+            arr[i] = (i + 1) * 5;
+        }
+
+        let max1 = arr[0], max2 = arr[0];
+
+        arr.forEach((e) => document.write(e))
+    </script>
+</body>
+
+</html>

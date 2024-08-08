@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let n = parseInt(prompt("enter no: "));
+        // palindrome(n);
+        armstrong(n);
+        function palindrome(n) {
+            let temp = n;
+            let rev = 0;
+            while (temp !== 0) {
+                let rem = temp % 10;
+                temp = parseInt(temp / 10);
+                rev = rev * 10 + rem;
+            }
+            if (n === rev) {
+                document.write(n + " is palindrome")
+            } else {
+
+                document.write(n + " is not palindrome")
+            }
+        }
+        function armstrong(n) {
+            let temp = n;
+            let y = n.toString().length;
+            let sum = 0;
+            while (temp !== 0) {
+                let rem = temp % 10;
+                temp = parseInt(temp / 10);
+                sum = sum + Math.pow(rem, y);
+            }
+            if (n === sum) {
+                document.write(n + " is armstrong")
+            } else {
+
+                document.write(n + " is not armstrong")
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

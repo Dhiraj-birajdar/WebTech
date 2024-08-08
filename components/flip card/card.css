@@ -54,7 +54,7 @@ body {
     flex: initial;
     position: relative;
     height: 52rem;
-    width: 48rem;
+    width: 35rem;
     -moz-perspective: 200rem;
     perspective: 200rem;
     margin: 2rem;
@@ -68,17 +68,10 @@ body {
     left: 0;
     width: 100%;
     -webkit-backface-visibility: hidden;
-    /* We don't want to see the back part of the element. */
     backface-visibility: hidden;
-    /* We don't want to see the back part of the element. */
     border-radius: 3px;
     overflow: hidden;
-    /* The image is overflowing the parent. */
     box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.15);
-}
-
-.card__side--front {
-    background-image: linear-gradient(to right bottom, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.7)), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
 }
 
 .card__side--back {
@@ -132,7 +125,7 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background-image: linear-gradient(to top right, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.65)), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
+    background-image: linear-gradient(to top right, rgba(30, 11, 54, 0.65), rgba(202, 55, 130, 0.65));
 }
 
 .card__heading {

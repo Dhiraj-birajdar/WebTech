@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 onmouseover="change()" onmouseleave="leave()" id="h">thsi is heading</h1>
+    <form action="" name="add">
+        <input type="text" name="num1" id="" placeholder="numbere 2"><br>
+        <input type="text" name="num2" id="" placeholder="numbere 2"><br>
+        <input type="button" name="" value="Add" onclick="addition()">
+    </form>
+    <script>
+        function addition() {
+            var n1 = parseInt(add.num1.value);
+            var n2 = parseInt(add.num2.value);
+            // console.log(n1 + n2)
+            // alert(n1 + n2)
+            document.getElementById('h').innerText = n1 + n2;
+        }
+        function change() {
+            // document.getElementById('h').innerText = "mouser over heading";
+            h.innerText = "mouser on"
+        }
+        function leave() {
+            h.innerText = "mouser out"
+            // document.getElementById('h').innerText = "mouser out heading";
+
+        }
+    </script>
+</body>
+
+</html>
